@@ -1,0 +1,31 @@
+/* Write your code here. */
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 40px;
+}
+.logo-and-title-container {
+  display: flex;
+  min-width: 40%;
+  align-items: center;
+}
+.title-with-score-container {
+  display: flex;
+  min-width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji-logo {
+  margin-right: 20px;
+}
+.score {
+  margin-left: 20px;
+}
